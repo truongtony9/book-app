@@ -31,27 +31,29 @@ public class Book {
                 // BookList.add(data); // add it to the Book List
                 // System.out.println(BookList); // print each row
 
+                // ----- Add or Remove Comments to test LinkedList or ArrayList below -----
 
-                // --- LinkedList Code STARTS ---
-                linkedlist.add(data);
-                System.out.println("Linked List Content: " + linkedlist);
-                // Iterating LinkedList
-                Iterator<String> iterator = linkedlist.iterator();
-                while(iterator.hasNext()){
-                    System.out.println(iterator.next());
-                }
-                // --- LinkedList Code ENDS ---
+            // --- LinkedList Code STARTS ---
+//                linkedlist.add(data);
+//                System.out.println("Linked List Content: " + linkedlist);
+            // --- Iterating LinkedList ---
+//                Iterator<String> iterator = linkedlist.iterator();
+//                while(iterator.hasNext()){
+//                    System.out.println(iterator.next());
+//                }
+            // --- LinkedList Code ENDS ---
 
-                // --- ArrayList Code STARTS ---
-                arraylist.add(data);
-                System.out.println("Array List Content: " + arraylist);
-                // Iterating ArrayList
-                for(String str:arraylist)
-                    System.out.println(str);
-                // --- ArrayList Code ENDS ---
+            // --- ArrayList Code STARTS ---
+//                arraylist.add(data);
+//                System.out.println("Array List Content: " + arraylist);
+            // --- Iterating ArrayList ---
+//                for(String str:arraylist)
+//                    System.out.println(str);
+            // --- ArrayList Code ENDS ---
 
             }
-//          System.out.println("the element at index 2 is " + BookList.get(2));
+
+            // System.out.println("the element at index 2 is " + BookList.get(2));
 
             scanner.close();
         } catch (FileNotFoundException e) {
